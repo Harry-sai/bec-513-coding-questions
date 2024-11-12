@@ -34,7 +34,7 @@ This R script, `categorical_plot.R`, reads data from standard input, assigns cus
 2. **Running the Script**:
    - Use the following command to run the script:
      ```bash
-     cat data/q2_data.tsv | Rscript <your code.R> "different_clusters.png" "Relative from center [bp],Enrichment over Mean,MNase fragment profile"
+     cat data/q2_data.tsv | Rscript categorical_plot.R "different_clusters.png" "Relative from center [bp],Enrichment over Mean,MNase fragment profile"
      ```
 
 3. **Explanation of the Command**:
