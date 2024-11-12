@@ -26,7 +26,7 @@ This project includes a Python script that extracts specific lines from a large 
    - The output file (`outputfile_new.tsv`) will contain only the lines from the data file that match any term in the selection file.
 
 # Q2: Plotting a group of lines ( R + Linux Command)
-This R script, `<your code.R>`, reads data from standard input, assigns custom column names, and creates a multi-line plot grouped by categories. It’s useful for visualizing trends across multiple groups.
+This R script, `categorical_plot.R`, reads data from standard input, assigns custom column names, and creates a multi-line plot grouped by categories. It’s useful for visualizing trends across multiple groups.
 
 1. **Purpose**:
    - Reads tab-separated data, assigns specified column names, and plots grouped data lines.
@@ -39,8 +39,8 @@ This R script, `<your code.R>`, reads data from standard input, assigns custom c
 
 3. **Explanation of the Command**:
    - `cat data/q2_data.tsv`: Streams the data file to standard input.
-   - `Rscript <your code.R> "different_clusters.png" "Relative from center [bp],Enrichment over Mean,MNase fragment profile"`:
-     - `<your code.R>`: Runs the script.
+   - `Rscript categorical_plot.R "different_clusters.png" "Relative from center [bp],Enrichment over Mean,MNase fragment profile"`:
+     - `categorical_plot.R`: Runs the script.
      - `"different_clusters.png"`: Specifies the output plot file.
      - `"Relative from center [bp],Enrichment over Mean,MNase fragment profile"`: Column names for x-axis, y-axis, and category.
 
