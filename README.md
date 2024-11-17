@@ -56,7 +56,7 @@ This script, `join_list_of_file.R`, merges multiple files on a common key column
 2. **Running the Script**:
    - Use the following command to execute the script:
      ```
-    Rscript join_list_of_files.R data/list_q3.tsv  > data/join_output.tsv
+     Rscript join_list_of_files.R data/list_q3.tsv  > data/join_output.tsv
      ```
 
 3. **Explanation of the Command**:
